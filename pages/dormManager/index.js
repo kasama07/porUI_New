@@ -22,7 +22,7 @@ export default function IDroom(){
         <Navbar/>
         <div className={styles.container}>
             <div className={styles.Boxgrid}>
-                <Link href= "/addRoom" className={styles.Box1}>
+                <Link href= "/dormManager/addRoom" className={styles.Box1}>
                     <img className={styles.icon} src="/addroom.png" width={100} height={100}></img>
                     <img className={styles.iconarrowbottom1} src="/circle.png" width={20} height={20}></img>
                     <div className={styles.Text}>เพิ่มห้อง</div>
